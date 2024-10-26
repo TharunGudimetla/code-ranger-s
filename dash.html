@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+        }
+        .left{
+            width: 250px;
+            background-color: #4a7c3a;
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .pro{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .pro-img{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            padding: 20px;
+        }
+        .pro-img:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .text{
+            margin-left: 10%;
+            margin-top: 7%;
+            color: green;
+        }
+        .right-img{
+            margin-left: 50%;
+            margin-top: 18%;
+        }
+        .im1{
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 12px 20px;
+            margin: 8px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .right-img img{
+            height: 500px;
+            width: 650px;
+        }
+        .sell-but{
+            background-color: #4a7c3a;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-left: 70%;
+        }
+
+        .sell-but:hover {
+            background-color: #3d6530;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="pro">
+            <div class="pro-img">
+            </div>
+            <div class="im1">Current order</div>
+            <div class="im1">Deliviry</div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="text">
+            <h1>Welcome to Dashboard</h1>
+        </div>
+        <div class="right-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1E1BqQj5KW5hfBXAvWBW-poVKyxyT6PKDRQ&s" alt="">
+            <a href="sell.html">
+                <button class="sell-but">Sell</button>
+            </a>
+           
+        </div>
+
+    </div>
+    
+</body>
+</html>

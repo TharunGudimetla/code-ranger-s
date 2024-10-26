@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+    margin: 0;
+    background-color: rgb(255, 253, 253);
+}
+h2{
+    color: green;
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 0px;
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.form-container input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+
+}
+
+.form-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 50px,black 15px;
+    max-width: 400px;
+    width: 1000%;
+    border: 1px solid #4CAF50;
+}
+         
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Farmer Order Form</h2>
+        <hr>
+        <br>
+        <label for="Product">Product Name</label><br>
+        <input type="text" id="Product" name="Product" placeholder="Name Of Product" width=""><br>
+        <br>
+        <label for="Quantity">Quantity</label><br>
+        <input type="text" id="Quantity" name="Quantity" placeholder="Quantity" width=""><br>
+        <br>
+        <label for="Location">Village</label><br>
+        <input type="text" id="Location" name="Location" placeholder="Location"><br>
+        <br>
+        <label for="Add Images">Add Images</label><br>
+        <input type="file" id="Add Images" name="Add Images" multiple><br>
+        <br>
+        <label for="Expected Date To Harvest">Expected Date To Harvest</label><br>
+        <input type="date" id="Date" name="Date"><br>
+        <br>
+        <button><a href="" class="">POST</a></button>
+        
+    </div>
+</body>
+</html>
